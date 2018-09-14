@@ -1,0 +1,26 @@
+{
+  "name": "GoogleFTF",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-liao/GoogleFTF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-liao/GoogleFTF/issues"
+  },
+  "homepage": "https://github.com/max-liao/GoogleFTF#readme",
+  "dependencies": {
+    "bootstrap4": "0.0.1-security",
+    "express": "^4.16.3",
+    "vue": "^2.5.17",
+    "vuex": "^3.0.1"
+  }
+}
