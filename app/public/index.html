@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" >
-    <script src="js/vue.js"></script>
-    <script src="js/index.js"></script>
-    <script src="components/jumbo.js"></script>
-    <title>Page Title</title>
+    <title>Vue Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Vue.js -->
+    <script src="js/vue.js"></script>
+    <script src="components/jumbo.js"></script>
+    
 </head>
 <body>
 
-<div id="TestComponent">
-    <jumbo v-bind:text="Hello World">Hi</jumbo>
+
+<div class="container-fluid">
+    <div id="TestComponent" class="jumbotron" v-bind:style="{ color: activeColor, fontSize: fontSize}">
+        {{message}}
+    </div>
 </div>
 </body>
- </html>
+
+<script src="js/index.js"></script>
+</html>
