@@ -1,4 +1,4 @@
-//const Vue = require("vue");
+
 
 Vue.component('jumbo', {
     props:{
@@ -11,4 +11,4 @@ Vue.component('jumbo', {
             <button type="button" class="btn btn-primary">Primary</button>\
         </div>\
     </div>'
-})
+});
