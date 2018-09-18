@@ -24,7 +24,7 @@ var test = new Vue({
 var header = new Vue({
     el:"#header-wrapper",
     data: {
-        image: 'blueTruck.png',
+        image: 'img/blueTruck.png',
         activeColor: 'blue',
         fontSize: '30px',
         background: '#444 url(../img/bg/bg-1.jpg) no-repeat center center fixed'

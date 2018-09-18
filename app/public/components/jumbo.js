@@ -1,7 +1,9 @@
 
 
 Vue.component('jumbo-jumbo', {
-    props:['text'] ,
+    props:{
+        text:String
+    } ,
     template: 
     ' <div class="container"> \
         <div class="jumbotron">\

@@ -22,16 +22,17 @@
 
 
 <div class="container-fluid">
-    <div id="TestComponent" class="jumbotron" v-bind:style="{ color: activeColor, fontSize: fontSize, background: background}">
-        <jumbo-jumbo>
-            {{message}}
-    </jumbo-jumbo>
+    <div id="TestComponent" class="jumbotron" >
+        <jumbo-jumbo 
+            v-bind:style="{ color: activeColor, fontSize: fontSize}" 
+            :text=message>
+        </jumbo-jumbo>
     </div>
 </div>
 
 <div class="container-fluid">
   <div id="header-wrapper"  v-bind:style="{ color: activeColor, fontSize: fontSize, background: background}">
-    <truck-logo :truckImg= "image">
+    <truck-logo :truck-Img=image>
     </truck-logo>
   </div>
 
