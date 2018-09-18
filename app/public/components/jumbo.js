@@ -1,14 +1,12 @@
 
 
-Vue.component('jumbo', {
-    props:{
-        text: String
-    } ,
+Vue.component('jumbo-jumbo', {
+    props:['text'] ,
     template: 
     ' <div class="container"> \
-        <div class="jumbotron"> \
+        <div class="jumbotron">\
             <p>String here: {{text}} </p>\
-            <button type="button" class="btn btn-primary">Primary</button>\
+            <button type="button" class="btn btn-primary">Test Logo</button>\
         </div>\
     </div>'
 });
